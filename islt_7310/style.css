@@ -1,4 +1,4 @@
-#headingone {color:#330066;}
+#headingone {color:#330066; font-family:arial; font-size:16pt;}
 footer {font-size: 10pt;}
 #email:hover {color: #66cccc;}
 #email:link {color: blue;}
@@ -6,3 +6,8 @@ footer {font-size: 10pt;}
 #email:visited {color: red;}
 #email:focus {color: #000066;}
 a {text-decoration: none; font-size: 10pt;}
+h3 {color:#000099; font-size:14pt;}
+p {text-align: center;}
+#education li:first-child {color: #009933;}
+#education li:last-child {color: aqua;}
+#img {float:right;}
