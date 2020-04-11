@@ -1,1 +1,8 @@
 #headingone {color:#330066;}
+footer {font-size: 10pt;}
+#email:hover {color: #66cccc;}
+#email:link {color: blue;}
+#email:active {color: #660066;}
+#email:visited {color: red;}
+#email:focus {color: #000066;}
+a {text-decoration: none;}
