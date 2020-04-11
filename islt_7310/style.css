@@ -5,4 +5,4 @@ footer {font-size: 10pt;}
 #email:active {color: #660066;}
 #email:visited {color: red;}
 #email:focus {color: #000066;}
-a {text-decoration: none;}
+a {text-decoration: none; font-size: 10pt;}
