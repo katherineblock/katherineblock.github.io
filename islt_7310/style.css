@@ -1,5 +1,6 @@
-#headingone {color:#330066; font-family:arial; font-size:16pt;}
-footer {font-size: 10pt;}
+#headingone {text-align: center; color:#330066; font-family:arial; font-size:20pt; border-style: dashed; border-color: #330066; border-width: 5px; background-color: gainsboro;}
+body {background-color: #ffffcc;}
+footer {font-size: 10pt; border-top:5px dashed #330066;}
 #email:hover {color: #66cccc;}
 #email:link {color: blue;}
 #email:active {color: #660066;}
@@ -8,6 +9,6 @@ footer {font-size: 10pt;}
 a {text-decoration: none; font-size: 10pt;}
 h3 {color:#000099; font-size:14pt;}
 p {text-align: center;}
-#education li:first-child {color: #009933;}
-#education li:last-child {color: aqua;}
-#img {float:right;}
+#education li:first-child {color: #666633;}
+#education li:last-child {color: #009933;}
+#img {float:right; position:static; padding: 1em;}
