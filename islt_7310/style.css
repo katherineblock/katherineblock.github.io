@@ -1,6 +1,27 @@
-#headingone {text-align: center; color:#330066; font-family:arial; font-size:20pt; border-style: dashed; border-color: #330066; border-width: 5px; background-color: gainsboro;}
-body {background-color: #ffffcc;}
-footer {font-size: 10pt; border-top:5px dashed #330066;}
+/*
+
+*****************************************************************************
+
+Title:  Style Sheet
+
+Use:  Style sheet for Katherine Block's portfolio website.
+
+Author:  Katherine Block
+
+School/Term:  University of Missouri, Spring 2020
+
+Developed: April 10, 2020
+
+Validated: April 12, 2020
+
+Tested:  April 12, 2020; Passed on Chrome and Firefox browsers.
+
+******************************************************************************
+
+*/
+h1 {text-align: center; color:#330066; font-family:arial; font-size:20pt; border-style: dashed; border-color: #330066; border-width: 5px; background-color: gainsboro;}
+body {background-color: #ffffcc; margin:15px;}
+footer {font-size: 10pt; border-top:5px dashed #330066; padding-top:5px;}
 #email:hover {color: #66cccc;}
 #email:link {color: blue;}
 #email:active {color: #660066;}

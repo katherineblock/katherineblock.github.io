@@ -15,22 +15,43 @@
 
     Developed: April 5, 2020
 
-    Tested: April 5, 2020. Tested on Chrome and Firefox browsers.
+    Validated: April 12, 2020
+
+    Tested: April 12, 2020. Tested on Chrome and Firefox browsers.
 
     -->
 
             <meta charset="utf-8">       
             
             <title>Resume</title>
-
+            
+            <link rel="stylesheet" href="style.css">
+            
+            <style>
+                #resume:hover{
+                    color: #66cccc;
+                }
+                #resume:link {
+                    color: blue;
+                }
+                #resume:visited {
+                    color: red;
+                }
+                #resume {
+                    font-size: 20pt;
+                }
+                body {
+                    text-align: center;
+                }
+            </style>
         </head>
 
         <body>     
 
-            <a href="docs/BlockResume.pdf">Resume</a>
+            <a id="resume" href="docs/BlockResume.pdf">Resume</a>
+            
+        <footer> &copy; 2020 Katherine Block <a id="email" href="mailto:kbmqk@mail.missouri.edu">kbmqk@mail.missouri.edu</a> </footer>
 
         </body>
-
-<footer>&copy; 2020 Katherine Block <a href="mailto:kbmqk@mail.missouri.edu">Email</a> </footer>
         
 </html>
