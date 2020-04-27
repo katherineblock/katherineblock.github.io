@@ -12,9 +12,9 @@ School/Term:  University of Missouri, Spring 2020
 
 Developed: April 10, 2020
 
-Validated: April 12, 2020
+Validated: April 26, 2020
 
-Tested:  April 12, 2020; Passed on Chrome and Firefox browsers.
+Tested:  April 26, 2020; Passed on Chrome and Firefox browsers.
 
 ******************************************************************************
 
@@ -28,8 +28,22 @@ footer {font-size: 10pt; border-top:5px dashed #330066; padding-top:5px;}
 #email:visited {color: red;}
 #email:focus {color: #000066;}
 a {text-decoration: none; font-size: 10pt;}
-h3 {color:#000099; font-size:14pt;}
-p {text-align: center;}
+h3 {color:#330066; font-size:16pt;}
+h2 {color:#330066; font-size:18pt}
+p {text-align: center; font-size: 14pt}
 #education li:first-child {color: #666633;}
 #education li:last-child {color: #009933;}
-#img {float:right; position:static; padding: 1em;}
+#img {padding: 1em; width: 60%; height: auto;}
+.img_wrapper {text-align: center;}
+.left-column {width: 47.5%; display: inline-block; margin: 1%;}
+.right-column {width: 47.5%; display: inline-block; margin: 1%; vertical-align: top;}
+.single-column {width: 100%}
+
+
+@media screen and (max-width:959px) {
+    .left-column {width: 100%;}
+    .right-column {width:100%; margin-left: 0%;}
+    #img {padding: 0;}
+    
+}
+

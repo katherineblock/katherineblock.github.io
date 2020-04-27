@@ -18,9 +18,9 @@ School/Term:  University of Missouri, Spring 2020
 
 Developed: April 12, 2020
 
-Validated: April 12, 2020
+Validated: April 26, 2020
 
-Tested:  April 12, 2020; Passed on Chrome and Firefox browsers.
+Tested:  April 26, 2020; Passed on Chrome and Firefox browsers.
 
 ******************************************************************************
 
@@ -30,6 +30,9 @@ Tested:  April 12, 2020; Passed on Chrome and Firefox browsers.
                <title>Background</title>
                
                <link rel="stylesheet" href="style.css">
+                <link rel="stylesheet" href="nav.css">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <style>
         ul.a {list-style-type: circle;}
     </style>
@@ -38,15 +41,31 @@ Tested:  April 12, 2020; Passed on Chrome and Firefox browsers.
 
     <body>
         
-        <header>
-            <h1>Background</h1> 
-        </header>
+        <nav>
+            <label id="hamburger">&#9776;</label>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="Background.html">Background</a></li>
+                <li><a href="#">Projects</a>
+                    <ul> 
+                        <li><a href="#">Goal 1</a></li>
+                        <li><a href="#">Goal 2</a></li>
+                        <li><a href="#">Goal 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="reflection.html">Reflection</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        
+        </nav>
 
-        <main>
+        <main class="single-column">
+            <h1>Background</h1> 
 
             <section>
 
-                <h2 style="color:#660000;" >Courses:</h2>
+                <h2>Courses:</h2>
 
                 <h3>Fall 2018:</h3>
                 
