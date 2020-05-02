@@ -21,13 +21,13 @@ Tested:  April 26, 2020; Passed on Chrome and Firefox browsers.
 */
 h1 {text-align: center; color:#330066; font-family:arial; font-size:20pt; border-style: dashed; border-color: #330066; border-width: 5px; background-color: gainsboro;}
 body {background-color: #ffffcc; margin:15px;}
-footer {font-size: 10pt; border-top:5px dashed #330066; padding-top:5px;}
+footer {font-size: 16pt; border-top:5px dashed #330066; padding-top:5px; text-align:center; background-image:url(images/sunflower.jpg); background-size: contain;}
 #email:hover {color: #66cccc;}
-#email:link {color: blue;}
+#email:link {color: navy;}
 #email:active {color: #660066;}
 #email:visited {color: red;}
 #email:focus {color: #000066;}
-a {text-decoration: none; font-size: 10pt;}
+a {text-decoration: none; font-size: 16pt; color: navy;}
 h3 {color:#330066; font-size:16pt;}
 h2 {color:#330066; font-size:18pt}
 p {text-align: center; font-size: 14pt}
@@ -45,5 +45,19 @@ p {text-align: center; font-size: 14pt}
     .right-column {width:100%; margin-left: 0%;}
     #img {padding: 0;}
     
+}
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
