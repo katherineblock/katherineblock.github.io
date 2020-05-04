@@ -12,9 +12,7 @@ School/Term:  University of Missouri, Spring 2020
 
 Developed: April 10, 2020
 
-Validated: April 26, 2020
-
-Tested:  April 26, 2020; Passed on Chrome and Firefox browsers.
+Validated: May 3, 2020
 
 ******************************************************************************
 
@@ -22,7 +20,7 @@ Tested:  April 26, 2020; Passed on Chrome and Firefox browsers.
 
 h1 {text-align: center; color:#330066; font-family:serif; font-size:20pt; border-style: dashed; border-color: #330066; border-width: 5px; background-color: gainsboro;}
 body {background-color: #ffffcc; margin:15px;}
-footer {font-size: 16pt; border-top:5px dashed #330066; padding-top:5px; text-align:center; background-image:url(images/sunflower.jpg); background-size: contain;}
+footer {font-size: 16pt; border:5px dashed #330066; padding-top:5px; text-align:center; background-color: gainsboro; background-size: contain;}
 #email:hover {color: #66cccc;}
 #email:link {color: navy;}
 #email:active {color: #660066;}
@@ -38,7 +36,13 @@ p {text-align: center; font-size: 14pt}
 .right-column {width: 47.5%; display: inline-block; margin: 1%; vertical-align: top;}
 .single-column {width: 100%}
 blockquote {font-family: "Open Sans"; font-size:16pt}
-
+footer img {width: 1em; height: auto;}
+footer img:hover {width:2em}
+.artifacts {color: black; text-decoration: underline;}
+.material-icons {
+    vertical-align: middle !important;
+    padding-bottom: 3px;
+}
 
 @media screen and (max-width:959px) {
     .left-column {width: 100%;}
@@ -76,10 +80,10 @@ blockquote {font-family: "Open Sans"; font-size:16pt}
     .single-column {width: 100%; margin: 0; display: inline-block;}
     .left-column {width: 100%; margin: 0; display: inline-block;}
     .right-column {width:100%; margin: 0; display: inline-block;}
-    #img {padding: 0;}
+    #img {padding: 0; width:200px; height:auto;}
     
     body{
-    margin: 25mm 25mm 25mm 25mm;
+    margin: 5mm 5mm 5mm 5mm;
     }
     
 }
