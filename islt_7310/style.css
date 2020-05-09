@@ -43,6 +43,31 @@ footer img:hover {width:2em}
     vertical-align: middle !important;
     padding-bottom: 3px;
 }
+table, th, td {
+  border: 2px solid #330066;
+}
+thead {background-color:white;}
+tbody tr:nth-of-type(odd) {
+background-color:gray;
+}
+
+table {
+    width: 100%;
+}
+
+.contact_form {
+    width: 100%;
+}
+
+.contact_form * {
+    width: 100%;
+    display: block;
+}
+
+@media screen and (min-width:959px) {
+    table {width:959px;}
+    .contact_form {width:959px;}
+}
 
 @media screen and (max-width:959px) {
     .left-column {width: 100%;}

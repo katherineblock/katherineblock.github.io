@@ -57,17 +57,21 @@
            <p> Please use the form below to contact me with any questions. I'll get back to you as soon as possible. </p>
         </section>  
         
-        <div class="single-column">
-        <h2>Name</h2> 
-        </div>
-        
-        <div class="single-column">
-        <h2>Email</h2>
-        </div>
-        
-        <div class="single-column">
-        <h2>Message</h2>
-        </div>
+        <form class="contact_form" action="mailto:kbmqk@mail.missouri.edu?Subject=Portfolio%20Website%20Contact" method="post" enctype="text/plain">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" required autofocus>
+            
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"  required>
+            
+            <label for="message">Message:</label>
+            <input type="text" id="message" name="message" required>
+            
+            <input type="submit" value="Submit">
+        </form>
     
 
     </main>
