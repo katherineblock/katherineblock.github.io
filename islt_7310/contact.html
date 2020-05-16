@@ -20,9 +20,10 @@
     -->
 
             <meta charset="utf-8">
-            <title>Portfolio Website</title>
+            <title>Contact</title>
             <link rel="stylesheet" href="style.css">
             <link rel="stylesheet" href="nav.css">
+            <link rel="shortcut icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
             <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
@@ -49,6 +50,27 @@
         
         </nav>
         
+        <script LANGUAGE="JavaScript">
+<!--
+
+//Bread crumb script - Kevin Lynn Brown
+//Duplicate directory names bug fix by JavaScriptKit.com
+//Visit JavaScript Kit (http://javascriptkit.com) for script
+
+var path = "";
+var href = document.location.href;
+var s = href.split("/");
+for (var i=2;i<(s.length-1);i++) {
+path+="<A HREF=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i]+"</A> / ";
+}
+i=s.length-1;
+path+="<A HREF=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</A>";
+var url = window.location.protocol + "//" + path;
+document.writeln(url);
+//-->
+</script>
+
+
         
     <main>   
         
@@ -82,9 +104,12 @@
             <img alt="phoneicon" src="https://img.icons8.com/wired/64/000000/phone.png"/>(999)999-9999
             <section>
             <a target="_blank" href="https://icons8.com/icons/set/email">Email</a>, <a target="_blank" href="https://icons8.com/icons/set/phone">Phone</a> and other icons by <a target="_blank" href="https://icons8.com">Icons8</a>
+            <p align="left">This free script provided by <a href="http://javascriptkit.com">JavaScript Kit</a></p>
             </section>
+            
         </footer>
-        
+         <a href='https://www.symptoma.es/'>www.symptoma.es</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=7f35f938443355018081dc7f3dd14eadb3f6da57'></script>
+<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/687678/t/5"></script>
 </body>
 
 </html>
