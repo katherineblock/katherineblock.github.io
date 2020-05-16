@@ -1,0 +1,132 @@
+/*
+
+*****************************************************************************
+
+Title: Navigation Style Sheet
+
+Use:  Navigation Style sheet for Katherine Block's portfolio website.
+
+Author:  Katherine Block
+
+School/Term:  University of Missouri, Spring 2020
+
+Developed: April 10, 2020
+
+Validated: May 3, 2020
+
+******************************************************************************
+
+*/
+
+
+
+nav {
+    top: 25px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: block;
+}
+
+nav li {
+    text-align: center;
+    border: 5px dashed #330066;
+}
+
+nav > ul {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul > li {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex: 0 1 auto;
+    list-style-type: none;
+    flex-basis: 0;
+    flex-grow: 1;
+    margin: 5px;
+}
+
+nav > ul li {
+    float: left;
+    background-color: #ffffcc;
+    text-align: center;
+    display: inline-block;
+}
+
+nav ul > li ul {
+    position: absolute;
+    top: 100%;
+    margin-top: 0px;
+    display: none;
+    margin-left: -5px;
+    width: 100%;
+}
+
+nav a {
+    color: #330066;
+    font-family: arial; 
+    font-size: 14pt;
+    display: inline-block;
+    padding: 10%;
+    width: 80%;
+}
+
+nav > ul > li:hover > ul{
+    display: block;
+}
+
+nav ul > li ul li {
+    margin-top: 10px;
+    width: 100%;
+}
+nav ul > li ul li:first-child {
+    margin-top: 15px;
+}
+
+#hamburger {
+    display: none;
+}
+
+@media screen and (max-width:959px) {
+    .goals {
+        display: none;
+    }
+    #hamburger {
+        display: inline-block;
+    }
+    nav > ul {
+        display:none;
+    }
+    nav li {
+        border: none;
+    }
+    nav li a {
+        text-align: left;
+        width: 100%;
+        padding: 0;
+        padding-left: 1em;
+    }
+    nav ul ul {
+        display: none !important;
+    }
+    nav:hover > ul {
+        display: inline-block;
+    }
+    nav > ul > li {
+        width: 60%
+    }
+}
